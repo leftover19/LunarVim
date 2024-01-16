@@ -18,8 +18,8 @@ M.config = function()
     mappings = {
       ["l"] = actions.edit,
       ["<CR>"] = actions.edit,
-      ["<C-s>"] = actions.split,
-      ["v"] = actions.vsplit,
+      ["-"] = actions.split,
+      ["|"] = actions.vsplit,
       ["<C-t>"] = actions.tabedit,
 
       ["h"] = actions.up,
